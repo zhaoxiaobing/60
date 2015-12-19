@@ -166,6 +166,8 @@ body{
     background: #ede1c9;
     overflow: hidden;
 }
+
+/* 左侧菜单 */
 #l_menu{
     width: 207px;
     padding-top: 10px;
@@ -197,9 +199,52 @@ body{
     width: 810px;
     padding: 0 20px 0 40px;
     min-height: 500px;
+    _height: 500px;
     background: #faf4e8;
 }
 
 .line_1{
     margin: 0 auto;
+}
+
+/* 分页 */
+.page{
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    text-align: center;
+    a{
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        display: inline-block;
+        overflow: hidden;
+        margin-right: 10px;
+        position: relative;
+        text-align: center;
+        background: #b6a88b;
+        color: #fff;
+        &:hover{
+            background: #c70609;
+            text-decoration: none;
+        }
+    }
+    .prev,.next{
+        background: none;
+        &:hover{
+            background: none;
+        }
+    }
+    .prev{
+        background: url(../images/index_img_53.jpg) no-repeat right center;
+        &:hover{
+            background: url(../images/index_img_54.jpg) no-repeat right center;
+        }
+    }
+    .next{
+        background: url(../images/index_img_55.jpg) no-repeat left center;
+        &:hover{
+            background: url(../images/index_img_56.jpg) no-repeat left center;
+        }
+    }
 }
