@@ -170,11 +170,12 @@ body{
 /* 左侧菜单 */
 #l_menu{
     width: 187px;
+    overflow: hidden;
     padding: 10px 10px 0;
     float: left;
     a,img{
         width: 187px;
-        height: 91px;
+        height: 81px;
     }
     a{
         margin-bottom: 10px;
@@ -184,15 +185,21 @@ body{
             display: none;
         }
         &.hover,&:hover{
-        .img1{
-            display: none;
-        }
-        .img2{
-            display: block;
+            .img1{
+                display: none;
+            }
+            .img2{
+                display: block;
+            }
         }
     }
+    .a1{
+        display: none;
+        _display: block;
+        height: 1px;
+        width: 1px;
+        background: none;
     }
-    
 }
 
 #style2,#style3{
@@ -264,7 +271,9 @@ body{
 
 .list_title1,.list_title2{
     width: 100%;
+    height: auto;
     overflow: hidden;
+    padding-top: 10px;
     a{
         display: block;
         float: left;
