@@ -235,8 +235,8 @@ body {
   _height: 500px;
   background: #faf4e8;
 }
-#style2 img,
-#style3 img {
+#style2 .img1,
+#style3 .img1 {
   margin: 0 auto 18px;
 }
 #style2 .t1,
