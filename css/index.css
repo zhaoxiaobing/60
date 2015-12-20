@@ -390,6 +390,10 @@ body {
 }
 .div_1 .imgScroll ul li {
   position: absolute;
+  display: none;
+}
+.div_1 .imgScroll ul .li_1 {
+  display: block;
 }
 .div_1 .imgScroll span,
 .div_1 .imgScroll ol {
@@ -410,9 +414,13 @@ body {
   z-index: 3;
 }
 .div_1 .imgScroll ol li {
+  display: none;
   line-height: 52px;
   text-indent: 15px;
   color: #fff;
+}
+.div_1 .imgScroll ol .li1 {
+  display: block;
 }
 .div_1 .imgScroll div {
   position: absolute;
@@ -442,14 +450,23 @@ body {
   background: #f4e9cb;
 }
 .div_1 .live ul {
-  padding-top: 17px;
+  margin-top: 17px;
+  height: 328px;
+  overflow: hidden;
 }
 .div_1 .live ul li {
-  background: url(../images/index_img_10.jpg) no-repeat 0 11px;
+  background: url(../images/index_img_10.jpg) no-repeat 0 9px;
   border-bottom: 1px dashed #716954;
   line-height: 24px;
   padding-left: 10px;
   margin-bottom: 1px;
+}
+.div_1 .live ul li a {
+  color: #333;
+}
+.div_1 .live ul li a:hover {
+  color: #b9100d;
+  text-decoration: none;
 }
 .div_1 .live ul .li_1 {
   border: 0;
