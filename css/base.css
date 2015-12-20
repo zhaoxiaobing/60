@@ -309,7 +309,9 @@ body {
 .list_title1,
 .list_title2 {
   width: 100%;
+  height: auto;
   overflow: hidden;
+  padding-top: 10px;
 }
 .list_title1 a,
 .list_title2 a {
