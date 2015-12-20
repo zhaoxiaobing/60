@@ -202,13 +202,14 @@ body {
 /* 左侧菜单 */
 #l_menu {
   width: 187px;
+  overflow: hidden;
   padding: 10px 10px 0;
   float: left;
 }
 #l_menu a,
 #l_menu img {
   width: 187px;
-  height: 91px;
+  height: 81px;
 }
 #l_menu a {
   margin-bottom: 10px;
@@ -225,6 +226,13 @@ body {
 #l_menu a.hover .img2,
 #l_menu a:hover .img2 {
   display: block;
+}
+#l_menu .a1 {
+  display: none;
+  _display: block;
+  height: 1px;
+  width: 1px;
+  background: none;
 }
 #style2,
 #style3 {
