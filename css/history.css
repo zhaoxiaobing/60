@@ -249,10 +249,25 @@ body {
 }
 #style2 p,
 #style3 p {
+  width: 100%;
   text-indent: 2em;
   font-size: 14px;
   line-height: 30px;
   padding-bottom: 18px;
+}
+#style2 .p1,
+#style3 .p1 {
+  padding: 0;
+  text-indent: 80%;
+}
+#style2 .p2,
+#style3 .p2 {
+  text-indent: 0;
+}
+#style2 .p3,
+#style3 .p3 {
+  text-align: center;
+  color: blue;
 }
 #style3 {
   width: 1040px;
