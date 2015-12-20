@@ -313,7 +313,8 @@ body {
 }
 .list_title1 a,
 .list_title2 a {
-  display: inline-block;
+  display: block;
+  float: left;
   height: 31px;
   line-height: 31px;
   padding: 0 29px;
