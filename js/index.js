@@ -43,7 +43,7 @@ $(function(){
 	});
 	
 	//
-	var timer1 = null
+	/*var timer1 = null
 	var top1 = 0;
 	timer1 = setInterval(function(){
 		newsTop()
@@ -68,7 +68,7 @@ $(function(){
 		timer1 = setInterval(function(){
 			newsTop()
 		},50);
-	});
+	});*/
 	
 	
 	
